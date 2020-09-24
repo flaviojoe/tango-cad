@@ -130,5 +130,5 @@ DATABASES['default'].update(db_from_env)
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-# Static files in production enviroment
+# Static files in production enviroment - DJANGO
 STATIC_ROOT = Path.joinpath(PROJECT_ROOT, 'staticfiles')
